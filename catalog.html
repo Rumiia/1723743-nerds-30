@@ -15,10 +15,14 @@
               <li> <a href="#">Клиенты</a></li>
               <li> <a href="catalog.html">Магазин</a></li>
               <li> <a href="#">Контакты</a></li>
-              <button type="cart-icon">иконка корзины</button>
-              <li> <a href="#">Корзина</a></li>
           </ul>
       </nav>
+      
+      <h3>Корзина</h3>
+    <section>
+        <a href="#">Корзина</a>
+    </section>
+    
    </header>
 
    <main>
@@ -31,65 +35,65 @@
             <legend>Сетка:</legend>
                 <ul>
                   <li>
-                    <input type="radio" name="setka">
-                    <label>Адаптивная</label>
+                    <input type="radio" name="setka" value="adaptive" id="filter-adaptive">
+                    <label for="filter-adaptive">Адаптивная</label>
                   </li>
                   <li>
-                    <input type="radio" name="setka">
-                    <label>Фиксированая</label>
+                    <input type="radio" name="setka" value="fixed" id="filter-fixed">
+                    <label for="filter-fixed">Фиксированная</label>
                   </li>
                   <li>
-                    <input type="radio" name="setka">
-                    <label>Резиновая</label>
+                    <input type="radio" name="setka" value="rubber" id="filter-rubber">
+                    <label for="filter-rubber">Резиновая</label>
                   </li>
                 </ul>
           </fieldset>
-                 
+           
           <fieldset>
             <legend>Особенности:</legend>
             <ul>
               <li>
-                <input type="checkbox" name="Слайдер" >
-                <label>Слайдер</label>
+                <input type="checkbox" name="slider" id="filter-slider">
+            <label for="filter-slider">Слайдер</label>
               </li>
               <li>
-                <input type="checkbox" name="Блок преимуществ" >
-                <label>Блок преимуществ</label>
+                <input type="checkbox" name="blok" id="filter-blok">
+            <label for="filter-blok">Блок</label>
+              <li>
+                <input type="checkbox" name="news" id="filter-news">
+            <label for="filter-news">Новости</label>
               </li>
               <li>
-                <input type="checkbox" name="Новости" >
-                <label>Новости</label>
+                <input type="checkbox" name="gallery" id="filter-gallery">
+            <label for="filter-gallery">Галерея</label>
               </li>
               <li>
-                <input type="checkbox" name="Галерея" >
-                <label>Галерея</label>
-              </li>
-              <li>
-                <input type="checkbox" name="Корзина" >
-                <label>Корзина</label>
+                <input type="checkbox" name="basket" id="filter-basket">
+                <label for="filter-basket">Корзина</label> 
               </li>
             </ul>
           </fieldset>
                 <button type="submit">Показать</button>
-                 </form>
+                 
 
               <fieldset>
                 <legend>Сортировать</legend>
                 <ul>
                   <li>
-                    <input type="radio" name="sort">
-                    <label>По цене</label>
+                    <input type="radio" name="sort" value="price" id="filter-price">
+            <label for="filter-price">По цене</label>
                   </li>
                   <li>
-                    <input type="radio" name="sort">
-                    <label>По типу</label>
+                    <input type="radio" name="sort" value="type" id="filter-type">
+            <label for="filter-type">По типу</label>
                   </li>
                   <li>
-                    <input type="radio" name="sort">
-                    <label>По названию</label>
+                    <input type="radio" name="sort" value="name" id="filter-name">
+            <label for="filter-name">По названию</label>
                   </li>
                 </ul>
               </fieldset>
+            </form>
       </section>
 
     <section>
@@ -103,9 +107,11 @@
                   <img src="https://via.placeholder.com/360x40" alt="Визитка Sedona">
                 </p>
               </a>
+              <a href="#">
               <p>
                 <button type="button">9900₽</button>
               </p>
+            </a>
              </li>
             </ul>
              <ul>
