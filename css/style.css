@@ -1,0 +1,353 @@
+/* Fonts */
+@font-face {
+font-family: "Roboto";
+font-style: medium;
+src: local("Roboto"),
+     url("roboto.woff2") format("woff2"),
+     url("roboto.woff") format("woff");
+}
+
+/* Variables */
+
+:root {
+  --basic-black: #000000;
+  --light-black: #444444;
+  --light-gray: #EEEEEE;
+  --medium-gray: #A6A6A6;
+  --gray-white: #E1E1E1;
+  --extra-gray: #666666;
+  --gray: #C1C1C1;
+  --dark-gray: #4D4D4D;
+  --light-red: #FB565A;
+  --red: #E74246;
+  --dark-red: #D7373B;
+  --white: #FFFFFF;
+  --light-green: #00CA74;
+  --green: #00BC6C;
+  --dark-green: #00AA62;
+  --light-yellow: #EFC849;
+  --yellow: #EAB534;
+  --dark-yellow: #E5A722;
+  --dark-blue: #283136;
+  --dark-red: #231F20;
+  --white-blue: #D7DCDE;
+  --gray-blue: #B4B9BB;
+  --light-white: #DFDFDF;
+  --dark-white: #D5D5D5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--white);
+  background-position: top center;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main navigation */
+
+.main-navigation,
+.basket {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--basic-black)
+}
+
+.site-navigation,
+.basket {
+  list-style: none;
+  background-color: var(--light-gray);
+}
+
+.site-navigation a,
+.basket a {
+  color: var(--basic-black);
+}
+
+.site-navigation a:hover,
+.basket a:hover {
+  color: var(--light-red);
+}
+
+.site-navigation a:focus,
+.basket a:focus {
+  color: var(--basic-black);
+}
+
+/* Container */
+
+.first-slide,
+.second-slide,
+.third-slide,
+.control-slide {
+  background-color: var(--light-gray);
+}
+
+.slogan-1st-slide,
+.slogan-2nd-slide,
+.slogan-3rd-slide {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: medium;
+  font-size: 55px;
+  line-height: 55px;
+  color: var(--basic-black);
+}
+
+.excerpt-1st-slide,
+.excerpt-2nd-slide,
+.excerpt-3rd-slide {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: none;
+  color: var(--dark-blue);
+}
+
+.more-slides {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 1px;
+  color: var(--white);
+  background-color: var(--light-red);
+}
+
+.more-slides:hover {
+   background-color: var(--red);
+}
+
+.more-slides:focus {
+  background-color: var(--dark-red);
+}
+
+/* Aside to order */
+
+.aside-web-site,
+.aside-apps,
+.aside-presentation {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--basic-black);
+}
+
+.aside-web-site p,
+.aside-apps p,
+.aside-presentation p {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: none;
+  color: var(--dark-blue);
+}
+
+.modal-order-web,
+.modal-order-apps,
+.modal-order-presentation {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 1px;
+  color: var(--white);
+}
+
+.modal-order-web {
+  background-color: var(--light-red);
+}
+
+.modal-order-web:hover {
+  background-color: var(--red);
+}
+
+.modal-order-web:focus {
+  background-color: var(--dark-red);
+}
+
+.modal-order-apps {
+  background-color: var(--light-green);
+}
+
+.modal-order-apps:hover {
+  background-color: var(--green);
+}
+
+.modal-order-apps:focus {
+  background-color: var(--dark-green);
+}
+
+.modal-order-presentation {
+  background-color: var(--light-yellow);
+}
+
+.modal-order-presentation:hover {
+  background-color: var(--yellow);
+}
+
+.modal-order-presentation:focus {
+  background-color: var(--dark-yellow);
+}
+
+/* Text about studio */
+
+.text-about-studio {
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.caption {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 45px;
+  padding: 1px;
+  color: var(--basic-black);
+}
+
+.excerpt {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 1px;
+  text-transform: none;
+  color: var(--dark-blue);
+}
+
+.caption-list {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 1px;
+}
+
+.list {
+  font-weight: normal;
+  text-transform: none;
+}
+
+.caption-description-list {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 1px;
+  text-transform: none;
+  color: var(--basic-black);
+}
+.term {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 64px;
+  padding: 1px;
+  text-transform: none;
+  color: var(--basic-black);
+}
+
+.description {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 1px;
+  text-transform: none;
+  color: var(--dark-blue);
+}
+
+.percent {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 40px;
+  padding: 1px;
+  text-transform: none;
+  color: var(--basic-black);
+  text-align: top;
+}
+
+/* Footer */
+
+.footer-contacts {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 1px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+  background-color: var(--white);
+}
+
+.footer-contacts p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: none;
+  color: var(--extra-gray);
+}
+
+.modal-write-us {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 1px;
+  color: var(--white);
+  background-color: var(--light-red);
+
+}
+
+/* footer-social */
+
+.footer-social {
+  text-align: center;
+  list-style: none;
+}
+
+.social-button {
+ color: var(--white);
+ background-color: var(--gray-white);
+}
+
+.social-button:hover {
+  color: var(--white);
+  background-color: var(--red);
+ }
+
+ .social-button:hover {
+  color: var(--white);
+  background-color: var(--dark-red);
+ }
+
+ .footer-caption {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  padding: 1px;
+  text-transform: none;
+  color: var(--basic-black);
+ }
+
+ .footer-subtitle {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--light-black);
+ }
