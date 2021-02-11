@@ -14,11 +14,11 @@
 
 <body>
   <header>
-    <nav>
+    <nav class="main-navigation">
       <a href="index.html">
         <img src="img/nerds-logo-black.svg" width="160" height="65" alt="Логотип студии Нёрдс">
       </a>
-      <ul>
+      <ul class="site-navigation">
         <li>
           <a href="#">Студия</a>
         </li>
@@ -33,7 +33,7 @@
         </li>
       </ul>
     </nav>
-    <div>
+    <div class="basket">
       <a href="#">Корзина
         <img src="img/basket-icon.svg" width="15" height="11" alt="Иконка корзины покупок">
       </a>
@@ -42,66 +42,66 @@
 
   <main>
     <h1>Магазин готовых шаблонов</h1>
-    <section>
+    <section class="product-filter">
       <h2>Фильтр товаров</h2>
       <form method="get" action="https://echo.htmlacademy.ru">
         <fieldset>
-          <legend>Сетка:</legend>
-          <ul>
+          <legend class="filter-caption">Сетка:</legend>
+          <ul class="filter-list">
             <li>
-              <input type="radio" name="setka" value="adaptive" id="filter-adaptive">
-              <label for="filter-adaptive">Адаптивная</label>
+              <input class="input-filter" type="radio" name="setka" value="adaptive" id="filter-adaptive">
+              <label class="label-filter" for="filter-adaptive">Адаптивная</label>
             </li>
             <li>
-              <input type="radio" name="setka" value="fixed" id="filter-fixed">
-              <label for="filter-fixed">Фиксированная</label>
+              <input class="input-filter" type="radio" name="setka" value="fixed" id="filter-fixed">
+              <label class="label-filter" for="filter-fixed">Фиксированная</label>
             </li>
             <li>
-              <input type="radio" name="setka" value="rubber" id="filter-rubber">
-              <label for="filter-rubber">Резиновая</label>
+              <input class="input-filter" type="radio" name="setka" value="rubber" id="filter-rubber">
+              <label class="label-filter" for="filter-rubber">Резиновая</label>
             </li>
           </ul>
         </fieldset>
         <fieldset>
-          <legend>Особенности:</legend>
-          <ul>
+          <legend class="filter-caption">Особенности:</legend>
+          <ul class="filter-list">
             <li>
-              <input type="checkbox" name="slider" id="filter-slider">
-              <label for="filter-slider">Слайдер</label>
+              <input class="input-filter" type="checkbox" name="slider" id="filter-slider">
+              <label class="label-filter" for="filter-slider">Слайдер</label>
             </li>
             <li>
-              <input type="checkbox" name="blok" id="filter-blok">
-              <label for="filter-blok">Блок</label>
+              <input class="input-filter" type="checkbox" name="blok" id="filter-blok">
+              <label class="label-filter" for="filter-blok">Блок</label>
             <li>
-              <input type="checkbox" name="news" id="filter-news">
-              <label for="filter-news">Новости</label>
+              <input class="input-filter" type="checkbox" name="news" id="filter-news">
+              <label class="label-filter" for="filter-news">Новости</label>
             </li>
             <li>
-              <input type="checkbox" name="gallery" id="filter-gallery">
-              <label for="filter-gallery">Галерея</label>
+              <input class="input-filter" type="checkbox" name="gallery" id="filter-gallery">
+              <label class="label-filter" for="filter-gallery">Галерея</label>
             </li>
             <li>
-              <input type="checkbox" name="basket" id="filter-basket">
-              <label for="filter-basket">Корзина</label>
+              <input class="input-filter" type="checkbox" name="basket" id="filter-basket">
+              <label class="label-filter" for="filter-basket">Корзина</label>
             </li>
           </ul>
         </fieldset>
-        <button type="submit">Показать</button>
+        <button class="button-show" type="submit">Показать</button>
       </form>
           <fieldset>
-            <legend>Сортировать</legend>
-            <ul>
+            <legend class="filter-caption">Сортировать</legend>
+            <ul class="filter-list">
               <li>
                 <input type="radio" name="sort" value="price" id="filter-price">
-                <label for="filter-price">По цене</label>
+                <label class="label-sort" for="filter-price">По цене</label>
               </li>
               <li>
                 <input type="radio" name="sort" value="type" id="filter-type">
-                <label for="filter-type">По типу</label>
+                <label class="label-sort" for="filter-type">По типу</label>
               </li>
               <li>
                 <input type="radio" name="sort" value="name" id="filter-name">
-                <label for="filter-name">По названию</label>
+                <label class="label-sort" for="filter-name">По названию</label>
               </li>
             </ul>
           </fieldset>
@@ -109,12 +109,12 @@
 
     <section>
       <h2>Перечень шаблонов</h2>
-      <ul>
+      <ul class="list-template">
         <li>
           <a href="#">
             <img src="img/sedona.jpg" width="358" height="578" alt="Контентная картинка Sedona">
           </a>
-          <section>
+          <section class="modal-window">
             <a href="#">
              <h3>Sedona</h3>
             </a>
@@ -126,7 +126,7 @@
           <a href="#">
             <img src="img/pink.jpg" width="358" height="578" alt="Контентная картинка Pink">
           </a>
-          <section>
+          <section class="modal-window">
             <a href="#">
              <h3>Pink App</h3>
             </a>
@@ -138,7 +138,7 @@
           <a href="#">
             <img src="img/borodinski.jpg" width="358" height="578" alt="Контентная картинка Borodinski">
           </a>
-          <section>
+          <section class="modal-window">
             <a href="#">
              <h3>Borodinski</h3>
             </a>
@@ -150,7 +150,7 @@
           <a href="#">
             <img src="img/mishka.jpg" width="358" height="578" alt="Контентная картинка Mishka">
           </a>
-          <section>
+          <section class="modal-window">
             <a href="#">
              <h3>Mishka</h3>
             </a>
@@ -162,7 +162,7 @@
           <a href="#">
             <img src="img/education.jpg" width="358" height="578" alt="Контентная картинка A+">
           </a>
-          <section>
+          <section class="modal-window">
             <a href="#">
              <h3>A Plus</h3>
             </a>
@@ -174,7 +174,7 @@
           <a href="#">
             <img src="img/craft-kvass.jpg" width="358" height="578" alt="Контентная картинка Кваст">
           </a>
-          <section>
+          <section class="modal-window">
             <a href="#">
              <h3>Кваст</h3>
             </a>
@@ -183,51 +183,51 @@
           </section>
         </li>
       </ul>
-      <ul>
+      <ul class="page-list">
         <li>
-          <a>1</a>
+          <a class="page">1</a>
         </li>
         <li>
-          <a href="#">2</a>
+          <a class="page" href="#">2</a>
         </li>
         <li>
-          <a href="#">3</a>
+          <a class="page" href="#">3</a>
         </li>
       </ul>
     </section>
   </main>
 
   <footer>
-    <section>
+    <section class="footer-contacts">
       <h2>Контакты</h2>
       <h3>NЁRDS DESIGN STUDIO</h3>
       <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
       <a href="tel:+78122757575">тел. +7 (812) 275-75-75</a>
-      <a href="#">Напишите нам</a>
+      <a class="modal-write-us" href="#">Напишите нам</a>
       <a href="#">
         <img src="img/map.jpg" width="1440" height="416" alt="Карта">
       </a>
     </section>
-    <section>
+    <section class="footer-social">
       <h2>Соц сети</h2>
-      <ul>
+      <ul class="footer-social">
         <li>
-            <a href="#">Vk
+            <a class="social-button" href="#">Vk
               <img src="img/vk-icon.svg" width="26" height="15" alt="Иконка корзины покупок"></a>
         </li>
         <li>
-          <a href="#">Fb
+          <a class="social-button" href="#">Fb
             <img src="img/fb-icon.svg" width="12" height="22" alt="Иконка корзины покупок"></a>
         </li>
         <li>
-          <a href="#">Insta
+          <a class="social-button" href="#">Insta
             <img src="img/insta-icon.svg" width="21" height="21" alt="Иконка корзины покупок"></a>
         </li>
       </ul>
     </section>
-    <section>
+    <section class="footer-caption">
       <h2>Давайте дружить, это выгодно!</h2>
-      <p>Скидка 10% для друзей из социальных сетей.</p>
+      <p class="footer-subtitle">Скидка 10% для друзей из социальных сетей.</p>
     </section>
   </footer>
 

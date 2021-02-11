@@ -241,6 +241,7 @@ img {
 .list {
   margin: 0;
   padding: 0;
+  list-style: none;
   font-weight: 400;
   text-transform: none;
 }
@@ -325,25 +326,181 @@ img {
 .social-button:hover {
   color: var(--white);
   background-color: var(--red);
- }
+}
 
- .social-button:hover {
+.social-button:hover {
   color: var(--white);
   background-color: var(--dark-red);
- }
+}
 
- .footer-caption {
+.footer-caption {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 36px;
   text-transform: none;
   color: var(--basic-black);
- }
+}
 
- .footer-subtitle {
+.footer-subtitle {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   color: var(--light-black);
- }
+}
+
+/* страница каталога */
+
+main h1 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 55px;
+  text-transform: none;
+  color: var(--basic-black);
+  background-color: var(--light-gray);
+}
+
+.product-filter{
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  color: var(--dark-blue);
+  background-color: var(--white);
+}
+
+.filter-caption {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--basic-black);
+  text-transform: uppercase;
+}
+
+.filter-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.input-filter,
+.input-filter:hover,
+.input-filter:focus {
+  color: var(--dark-gray);
+}
+
+.label-filter,
+.label-filter:hover,
+.label-filter:focus {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--dark-blue);
+}
+
+.button-show {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+  background-color: var(--light-gray);
+}
+
+.button-show:hover {
+  background-color: var(--light-white);
+}
+
+.button-show:focus {
+  background-color: var(--dark-white);
+}
+
+.label-sort,
+.label-sort:hover,
+.label-sort:focus {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+
+/* Модальные окна */
+
+.list-template {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.modal-window h3,
+.modal-window h3:focus {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+  background-color: var(--light-gray);
+}
+
+.modal-window h3:hover {
+  color: var(--light-red);
+}
+
+.modal-window p {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: none;
+  color: var(--extra-gray);
+  background-color: var(--light-gray);
+}
+
+.modal-window a {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--white);
+  background-color: var(--light-red);
+}
+
+.modal-window a:hover {
+  background-color: var(--red);
+}
+
+.modal-window a:focus {
+  background-color: var(--dark-red);
+}
+
+.page-list {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: var(--basic-black);
+  background-color: var(--light-gray);
+}
+
+.page {
+  color: var(--basic-black);
+}
+
+.page:hover {
+  color: var(--basic-black);
+  background-color: var(--light-white);
+}
+
+.page:focus {
+  color: var(--basic-black);
+  background-color: var(--dark-white);
+}
+
