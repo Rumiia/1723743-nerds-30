@@ -50,6 +50,7 @@
   --gray-blue: #B4B9BB;
   --light-white: #DFDFDF;
   --dark-white: #D5D5D5;
+  --extra-white: #DBDBDB;
 }
 
 body {
@@ -91,7 +92,9 @@ img {
 }
 
 .site-navigation a,
-.basket a {
+.basket a
+.site-navigation a:active
+.basket a:active {
   color: var(--basic-black);
 }
 
@@ -146,9 +149,9 @@ img {
   background-color: var(--dark-red);
 }
 
-/* Aside to order */
+/* Product to order */
 
-.aside {
+.product-to-order {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 700;
   font-size: 24px;
@@ -156,7 +159,7 @@ img {
   color: var(--basic-black);
 }
 
-.aside p {
+.product-to-order p {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -294,7 +297,8 @@ img {
   background-color: var(--white);
 }
 
-.footer-contacts p {
+.footer-contacts p,
+.footer-phone {
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
@@ -302,13 +306,13 @@ img {
   color: var(--extra-gray);
 }
 
+
 .modal-write-us {
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   color: var(--white);
   background-color: var(--light-red);
-
 }
 
 /* footer-social */
@@ -433,6 +437,7 @@ main h1 {
   padding: 0;
   margin: 0;
   list-style: none;
+  background-color: var(--light-gray);
 }
 
 .modal-window h3,
@@ -443,7 +448,6 @@ main h1 {
   line-height: 30px;
   text-transform: uppercase;
   color: var(--basic-black);
-  background-color: var(--light-gray);
 }
 
 .modal-window h3:hover {
@@ -457,7 +461,7 @@ main h1 {
   line-height: 18px;
   text-transform: none;
   color: var(--extra-gray);
-  background-color: var(--light-gray);
+
 }
 
 .modal-window a {
@@ -487,7 +491,6 @@ main h1 {
   margin: 0;
   list-style: none;
   color: var(--basic-black);
-  background-color: var(--light-gray);
 }
 
 .page {
@@ -495,12 +498,14 @@ main h1 {
 }
 
 .page:hover {
-  color: var(--basic-black);
   background-color: var(--light-white);
 }
 
 .page:focus {
-  color: var(--basic-black);
   background-color: var(--dark-white);
+}
+
+.page:active {
+  background-color: var(--extra-white);
 }
 
