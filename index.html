@@ -16,7 +16,7 @@
 <body class="page-body">
   <header class="main-header">
     <nav class="main-navigation">
-      <a class="main-header-logo "href="blank.html">
+      <a class="main-header-logo "href="index.html">
         <img src="img/nerds-logo-black.svg" width="160" height="65" alt="Логотип студии Нёрдс">
       </a>
       <ul class="site-navigation">
@@ -34,57 +34,58 @@
         </li>
       </ul>
     </nav>
-    <div class="basket">
-      <a href="#">Корзина
+      <a class="basket" href="#">Корзина
         <img src="img/basket-icon.svg" width="15" height="11" alt="Иконка корзины покупок">
       </a>
-    </div>
   </header>
 
   <main class="container">
     <h1>Дизайн студия Нёрдс</h1>
     <h2>Преимущества</h2>
-    <section class="slide-menu">
-      <img src="img/slide1.png" width="760" height="431" alt="Первый слайд">
-      <h3 class="slogan-slide">Долго,дорого,скурпулезно.</h3>
-      <p class="excerpt-slide">Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
-      <a class="more-slides" href="#">Узнать больше</a>
-    </section>
-    <section class="slide-menu">
-      <img src="img/slide2.png" width="760" height="431" alt="Второй слайд">
-      <h3 class="slogan-slide">Любим математику как никто другой</h3>
-      <p class="excerpt-slide">Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
-      <a class="more-slides" href="#">Узнать больше</a>
-    </section>
-    <section class="slide-menu">
-      <img src="img/slide3.png" width="760" height="431" alt="Третий слайд">
-      <h3 class="slogan-slide">Только ночь, только хардкор</h3>
-      <p class="excerpt-slide">Работать днем, как все? Мы против этого.Ближе к полуночи работа только начинается.</p>
-      <a class="more-slides" href="#">Узнать больше</a>
-    </section>
-    <div class="control-slide">
-      <button type="submit">1</button>
-      <button type="submit">2</button>
-      <button type="submit">3</button>
+    <div class="slider">
+      <section class="slide">
+        <img src="img/slide1.png" width="760" height="431" alt="Первый слайд">
+        <h3 class="slogan-slide">Долго,дорого,скурпулезно.</h3>
+        <p class="excerpt-slide">Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
+        <a class="more-slides" href="#">Узнать больше</a>
+      </section>
+      <section class="slide">
+        <img src="img/slide2.png" width="760" height="431" alt="Второй слайд">
+        <h3 class="slogan-slide">Любим математику как никто другой</h3>
+        <p class="excerpt-slide">Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
+        <a class="more-slides" href="#">Узнать больше</a>
+      </section>
+      <section class="slide">
+        <img src="img/slide3.png" width="760" height="431" alt="Третий слайд">
+        <h3 class="slogan-slide">Только ночь, только хардкор</h3>
+        <p class="excerpt-slide">Работать днем, как все? Мы против этого.Ближе к полуночи работа только начинается.</p>
+        <a class="more-slides" href="#">Узнать больше</a>
+      </section>
+          <div class="slide-controls">
+            <button type="button">1</button>
+            <button type="button">2</button>
+            <button type="button">3</button>
+          </div>
     </div>
+
     <!-- Product to order -->
     <section class="product-to-order">
       <img src="img/illustration_web-site.jpg" width="300" height="146" alt="Иллюстрация Веб-сайты">
       <h2>Веб-сайты</h2>
       <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-      <a class="modal-order-web" href="#">Заказать</a>
+      <a class="order order-web" href="#">Заказать</a>
     </section>
     <section class="product-to-order">
       <img src="img/illustration_apps.jpg" width="300" height="146" alt="Иллюстрация Приложения">
       <h2>Приложения</h2>
       <p>Покорите ТОП-10 приложений в AppStore и Google Play</p>
-      <a class="modal-order-apps" href="#">Заказать</a>
+      <a class="order order-apps" href="#">Заказать</a>
     </section>
     <section class="product-to-order">
       <img src="img/illustration_presentation.jpg" width="300" height="146" alt="Иллюстрация Презентации">
       <h2>Презентации</h2>
       <p>Вы даже не подозреваете,насколько вы изумительны!</p>
-      <a class="modal-order-presentation" href="#">Заказать</a>
+      <a class="order order-presentation" href="#">Заказать</a>
     </section>
     <!-- Text about studio -->
     <section class="text-about-studio">
@@ -102,8 +103,9 @@
     <section>
       <h2>Принципы компании</h2>
       <figure>
-        <a href="#"></a>
+        <a href="index.html">
         <img src="img/nerds-logo-colour.jpg" width="360" height="208" alt="Лого дизайн студии Нёрдс">
+        </a>
       </figure>
       <h3 class="caption-description-list">с 2004 года Любим точность во всем:</h3>
       <dl class="description-list">
@@ -157,16 +159,16 @@
       <h2>Соц сети</h2>
       <ul class="footer-social">
         <li>
-         <a class="social-button" href="#">Vk
-           <img src="img/vk-icon.svg" width="26" height="15" alt="Лого вк"></a>
+          <a class="social-button" href="#">Vk
+          <img src="img/vk-icon.svg" width="26" height="15" alt="Лого вк"></a>
         </li>
         <li>
           <a class="social-button" href="#">Fb
-            <img src="img/fb-icon.svg" width="12" height="22" alt="Лого Фейсбук"></a>
+          <img src="img/fb-icon.svg" width="12" height="22" alt="Лого Фейсбук"></a>
         </li>
         <li>
           <a class="social-button" href="#">Insta
-            <img src="img/insta-icon.svg" width="21" height="21" alt="Лого инста"></a>
+          <img src="img/insta-icon.svg" width="21" height="21" alt="Лого инста"></a>
         </li>
       </ul>
     </section>

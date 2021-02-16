@@ -1,26 +1,26 @@
 /* Fonts */
 @font-face {
+  font-style: normal;
   font-family: "Roboto";
   src: url(../fonts/roboto.woff2) format("woff2"),
        url(../fonts/roboto.woff) format("woff");
-       font-weight: 400;
-       font-style: normal;
+  font-weight: 400;
 }
 
 @font-face {
+  font-style: normal;
   font-family: "Roboto";
   src:  url(../fonts/robotobold.woff2) format("woff2"),
         url(../fonts/robotobold.woff) format("woff");
-        font-weight: 700;
-        font-style: bold;
+  font-weight: 700;
 }
 
 @font-face {
+  font-style: normal;
   font-family: "Roboto";
   src:  url(../fonts/robotomedium.woff2) format("woff2"),
         url(../fonts/robotomedium.woff) format("woff");
-        font-weight: 600;
-        font-style: medium;
+  font-weight: 600;
 }
 
 /* Variables */
@@ -56,10 +56,10 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 30px;
   font-weight: 700;
+  font-family: "Roboto", "Arial", sans-serif;
   text-transform: uppercase;
   background-color: var(--white);
   background-position: top center;
@@ -78,10 +78,10 @@ img {
 
 .main-navigation,
 .basket {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 700;
   font-size: 16px;
   line-height: 30px;
+  font-weight: 600;
+  font-family: "Roboto", "Arial", sans-serif;
   color: var(--basic-black)
 }
 
@@ -92,51 +92,51 @@ img {
 }
 
 .site-navigation a,
-.basket a
+.basket
 .site-navigation a:active
-.basket a:active {
+.basket:active {
   color: var(--basic-black);
 }
 
 .site-navigation a:hover,
-.basket a:hover {
+.basket:hover {
   color: var(--light-red);
 }
 
 .site-navigation a:focus,
-.basket a:focus {
+.basket:focus {
   color: var(--basic-black);
 }
 
 /* Container */
 
-.slide-menu,
-.control-slide {
+.slide,
+.slide-controls {
   background-color: var(--light-gray);
 }
 
 .slogan-slide {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight:600;
   font-size: 55px;
   line-height: 55px;
+  font-weight:600;
+  font-family: "Roboto", "Arial", sans-serif;
   color: var(--basic-black);
 }
 
 .excerpt-slide {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  text-transform: none;
+  font-weight: 400;
+  font-family: "Roboto", "Arial", sans-serif;
   color: var(--dark-blue);
+  text-transform: none;
 }
 
 .more-slides {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 600;
   font-size: 16px;
   line-height: 18px;
+  font-weight: 600;
+  font-family: "Roboto", "Arial", sans-serif;
   color: var(--white);
   background-color: var(--light-red);
 }
@@ -152,165 +152,164 @@ img {
 /* Product to order */
 
 .product-to-order {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 700;
   font-size: 24px;
   line-height: 30px;
+  font-weight: 700;
+  font-family: "Roboto", "Arial", sans-serif;
   color: var(--basic-black);
 }
 
 .product-to-order p {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  text-transform: none;
+  font-weight: 400;
+  font-family: "Roboto", "Arial", sans-serif;
   color: var(--dark-blue);
+  text-transform: none;
 }
 
-.modal-order-web,
-.modal-order-apps,
-.modal-order-presentation {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 400;
+.order {
   font-size: 16px;
   line-height: 18px;
+  font-weight: 400;
+  font-family: "Roboto", "Arial", sans-serif;
   color: var(--white);
 }
 
-.modal-order-web {
+.order-web {
   background-color: var(--light-red);
 }
 
-.modal-order-web:hover {
+.order-web:hover {
   background-color: var(--red);
 }
 
-.modal-order-web:focus {
+.order-web:focus {
   background-color: var(--dark-red);
 }
 
-.modal-order-apps {
+.order-apps {
   background-color: var(--light-green);
 }
 
-.modal-order-apps:hover {
+.order-apps:hover {
   background-color: var(--green);
 }
 
-.modal-order-apps:focus {
+.order-apps:focus {
   background-color: var(--dark-green);
 }
 
-.modal-order-presentation {
+.order-presentation {
   background-color: var(--light-yellow);
 }
 
-.modal-order-presentation:hover {
+.order-presentation:hover {
   background-color: var(--yellow);
 }
 
-.modal-order-presentation:focus {
+.order-presentation:focus {
   background-color: var(--dark-yellow);
 }
 
 /* Text about studio */
 
 .text-about-studio {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
 .caption {
-  font-weight: 700;
   font-size: 45px;
   line-height: 45px;
+  font-weight: 600;
   color: var(--basic-black);
 }
 
 .excerpt {
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  text-transform: none;
+  font-weight: 400;
   color: var(--dark-blue);
+  text-transform: none;
 }
 
 .caption-list {
-  font-weight: 700;
   font-size: 16px;
   line-height: 24px;
+  font-weight: 700;
 }
 
 .list {
   margin: 0;
   padding: 0;
-  list-style: none;
   font-weight: 400;
   text-transform: none;
+  list-style: none;
 }
 
 .caption-description-list {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  text-transform: none;
-  color: var(--basic-black);
-}
-.term {
-  font-family: "Roboto", Arial, sans-serif;
   font-weight: 700;
+  font-family: "Roboto", "Arial", sans-serif;
+  color: var(--basic-black);
+  text-transform: none;
+}
+
+.term {
   font-size: 45px;
   line-height: 64px;
-  text-transform: none;
+  font-weight: 700;
+  font-family: "Roboto", "Arial", sans-serif;
   color: var(--basic-black);
+  text-transform: none;
 }
 
 .description {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  text-transform: none;
+  font-weight: 400;
+  font-family: "Roboto", "Arial", sans-serif;
   color: var(--dark-blue);
+  text-transform: none;
 }
 
 .percent {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 700;
   font-size: 26px;
   line-height: 40px;
-  text-transform: none;
-  color: var(--basic-black);
+  font-weight: 700;
+  font-family: "Roboto", "Arial", sans-serif;
   text-align: top;
+  color: var(--basic-black);
+  text-transform: none;
 }
 
 /* Footer */
 
 .footer-contacts {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 700;
   font-size: 18px;
   line-height: 30px;
-  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Roboto", "Arial", sans-serif;
   color: var(--basic-black);
+  text-transform: uppercase;
   background-color: var(--white);
 }
 
 .footer-contacts p,
 .footer-phone {
-  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  text-transform: none;
+  font-weight: 400;
   color: var(--extra-gray);
+  text-transform: none;
 }
 
 
 .modal-write-us {
-  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
+  font-weight: 400;
   color: var(--white);
   background-color: var(--light-red);
 }
@@ -338,53 +337,50 @@ img {
 }
 
 .footer-caption {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 700;
   font-size: 36px;
   line-height: 36px;
-  text-transform: none;
+  font-weight: 700;
+  font-family: "Roboto", "Arial", sans-serif;
   color: var(--basic-black);
+  text-transform: none;
 }
 
 .footer-subtitle {
-  font-weight: 400;
   font-size: 16px;
   line-height: 22px;
+  font-weight: 400;
   color: var(--light-black);
 }
 
 /* страница каталога */
 
 main h1 {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 600;
   font-size: 55px;
   line-height: 55px;
-  text-transform: none;
+  font-weight: 600;
+  font-family: "Roboto", "Arial", sans-serif;
   color: var(--basic-black);
+  text-transform: none;
   background-color: var(--light-gray);
 }
 
 .product-filter{
-  font-family: "Roboto", Arial, sans-serif;
   font-weight: 400;
-  text-transform: none;
+  font-family: "Roboto", "Arial", sans-serif;
   color: var(--dark-blue);
+  text-transform: none;
   background-color: var(--white);
 }
 
 .filter-caption {
-  font-weight: 600;
   font-size: 18px;
   line-height: 20px;
+  font-weight: 700;
   color: var(--basic-black);
   text-transform: uppercase;
 }
 
-.filter-list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+.sort {
   font-size: 16px;
   line-height: 20px;
 }
@@ -398,18 +394,18 @@ main h1 {
 .label-filter,
 .label-filter:hover,
 .label-filter:focus {
-  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  font-weight: 400;
   color: var(--dark-blue);
 }
 
 .button-show {
-  font-weight: 600;
   font-size: 16px;
   line-height: 18px;
-  text-transform: uppercase;
+  font-weight: 600;
   color: var(--basic-black);
+  text-transform: uppercase;
   background-color: var(--light-gray);
 }
 
@@ -424,11 +420,11 @@ main h1 {
 .label-sort,
 .label-sort:hover,
 .label-sort:focus {
-  font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  text-transform: uppercase;
+  font-weight: 400;
   color: var(--basic-black);
+  text-transform: uppercase;
 }
 
 /* Модальные окна */
@@ -442,12 +438,12 @@ main h1 {
 
 .modal-window h3,
 .modal-window h3:focus {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 700;
   font-size: 18px;
   line-height: 30px;
-  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Roboto", "Arial", sans-serif;
   color: var(--basic-black);
+  text-transform: uppercase;
 }
 
 .modal-window h3:hover {
@@ -455,20 +451,19 @@ main h1 {
 }
 
 .modal-window p {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  text-transform: none;
+  font-weight: 400;
+  font-family: "Roboto", "Arial", sans-serif;
   color: var(--extra-gray);
-
+  text-transform: none;
 }
 
 .modal-window a {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 600;
   font-size: 16px;
   line-height: 18px;
+  font-weight: 600;
+  font-family: "Roboto", "Arial", sans-serif;
   color: var(--white);
   background-color: var(--light-red);
 }
@@ -482,13 +477,13 @@ main h1 {
 }
 
 .page-list {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 600;
+  margin: 0;
+  padding: 0;
   font-size: 16px;
   line-height: 18px;
+  font-weight: 600;
   text-align: center;
-  padding: 0;
-  margin: 0;
+  font-family: "Roboto", "Arial", sans-serif;
   list-style: none;
   color: var(--basic-black);
 }
@@ -505,7 +500,7 @@ main h1 {
   background-color: var(--dark-white);
 }
 
-.page:active {
+.page-active {
   background-color: var(--extra-white);
 }
 
