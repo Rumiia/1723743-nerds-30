@@ -80,7 +80,7 @@ img {
 .basket {
   font-size: 16px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Roboto", "Arial", sans-serif;
   color: var(--basic-black)
 }
@@ -118,7 +118,7 @@ img {
 .slogan-slide {
   font-size: 55px;
   line-height: 55px;
-  font-weight:600;
+  font-weight:500;
   font-family: "Roboto", "Arial", sans-serif;
   color: var(--basic-black);
 }
@@ -135,7 +135,7 @@ img {
 .more-slides {
   font-size: 16px;
   line-height: 18px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Roboto", "Arial", sans-serif;
   color: var(--white);
   background-color: var(--light-red);
@@ -171,7 +171,7 @@ img {
 .order {
   font-size: 16px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Roboto", "Arial", sans-serif;
   color: var(--white);
 }
@@ -221,7 +221,7 @@ img {
 .caption {
   font-size: 45px;
   line-height: 45px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--basic-black);
 }
 
@@ -309,7 +309,7 @@ img {
 .modal-write-us {
   font-size: 16px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--white);
   background-color: var(--light-red);
 }
@@ -357,7 +357,7 @@ img {
 main h1 {
   font-size: 55px;
   line-height: 55px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Roboto", "Arial", sans-serif;
   color: var(--basic-black);
   text-transform: none;
@@ -403,7 +403,7 @@ main h1 {
 .button-show {
   font-size: 16px;
   line-height: 18px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--basic-black);
   text-transform: uppercase;
   background-color: var(--light-gray);
@@ -462,7 +462,7 @@ main h1 {
 .modal-window a {
   font-size: 16px;
   line-height: 18px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Roboto", "Arial", sans-serif;
   color: var(--white);
   background-color: var(--light-red);
@@ -481,7 +481,7 @@ main h1 {
   padding: 0;
   font-size: 16px;
   line-height: 18px;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   font-family: "Roboto", "Arial", sans-serif;
   list-style: none;
@@ -503,4 +503,3 @@ main h1 {
 .page-active {
   background-color: var(--extra-white);
 }
-
