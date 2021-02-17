@@ -10,17 +10,17 @@
 @font-face {
   font-style: normal;
   font-family: "Roboto";
-  src:  url(../fonts/robotobold.woff2) format("woff2"),
-        url(../fonts/robotobold.woff) format("woff");
-  font-weight: 700;
+  src:  url(../fonts/robotomedium.woff2) format("woff2"),
+        url(../fonts/robotomedium.woff) format("woff");
+  font-weight: 600;
 }
 
 @font-face {
   font-style: normal;
   font-family: "Roboto";
-  src:  url(../fonts/robotomedium.woff2) format("woff2"),
-        url(../fonts/robotomedium.woff) format("woff");
-  font-weight: 600;
+  src:  url(../fonts/robotobold.woff2) format("woff2"),
+        url(../fonts/robotobold.woff) format("woff");
+  font-weight: 700;
 }
 
 /* Variables */
@@ -63,6 +63,11 @@ body {
   text-transform: uppercase;
   background-color: var(--white);
   background-position: top center;
+
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: center;
 }
 
 a {
@@ -78,6 +83,7 @@ img {
 
 .main-navigation,
 .basket {
+  display: grid;
   font-size: 16px;
   line-height: 30px;
   font-weight: 500;
@@ -87,6 +93,8 @@ img {
 
 .site-navigation,
 .basket {
+  outline: 5px solid rgba(0, 255, 255, 0.3);
+  outline-offset: -5px;
   list-style: none;
   background-color: var(--light-gray);
 }
@@ -152,6 +160,7 @@ img {
 /* Product to order */
 
 .product-to-order {
+  text-align: left;
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
@@ -476,7 +485,7 @@ main h1 {
   background-color: var(--dark-red);
 }
 
-.page-list {
+.pagination-list {
   margin: 0;
   padding: 0;
   font-size: 16px;
@@ -488,18 +497,123 @@ main h1 {
   color: var(--basic-black);
 }
 
-.page {
+.pagination {
   color: var(--basic-black);
 }
 
-.page:hover {
+.pagination:hover {
   background-color: var(--light-white);
 }
 
-.page:focus {
+.pagination:focus {
   background-color: var(--dark-white);
 }
 
-.page-active {
+.pagination-active {
   background-color: var(--extra-white);
+}
+
+/* Grid */
+
+.page {
+  height: 100%
+}
+
+.product-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 100px 100px;
+  margin-bottom: 80px;
+  width: 1160px;
+}
+
+..product-to-order {
+  margin: 0 10px;
+  text-align: center;
+  outline: 5px solid rgba(0, 255, 255 , 0.3);
+  outline-offset: -5px;
+}
+
+.container-about-studio {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 149px;
+  margin-bottom: 72px;
+  width: 1160px;
+}
+
+.caption {
+  width: 651px;
+  margin-bottom: 32px;
+  text-align: left;
+  justify-self: left;
+}
+.excerpt {
+  width: 646px;
+  margin-bottom: 40px;
+  text-align: left;
+  justify-self: left;
+}
+
+.caption-list {
+  width: 306px;
+  margin-bottom: 23px;
+  text-align: left;
+  justify-self: left;
+}
+
+.list {
+  width: 399px;
+  margin-bottom: 72px;
+  text-align: left;
+  justify-self: left;
+  list-style: none;
+}
+
+.principles-company,
+.principles-company img {
+  width: 360px;
+  margin-bottom: 37px;
+  text-align: center;
+  justify-self: right;
+}
+
+.caption-description-list
+.description-list {
+  width: 360px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 22px 20px;
+  margin: 0 80 0 0;
+  padding: 0;
+  text-align: center;
+  justify-self: right;
+}
+
+.container-logo,
+.logo-examples-sites {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 95px 104px 120px;
+  margin: 0 80 0 0;
+  padding: 0;
+  list-style: none;
+  width: 1160px;
+}
+
+.footer-social {
+  width: 260px;
+  justify-self: left;
+  text-align: center;
+}
+
+.footer-caption {
+  width: 660px;
+  justify-self: center;
+  text-align: center;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 }
