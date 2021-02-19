@@ -13,13 +13,16 @@
   <link rel="manifest" href="manifest.webmanifest">
 </head>
 
-<body class="page-body">
-  <header class="main-header">
-    <div class="main-navigation-wrapper">
+<body>
+  <header>
+    <div class="container-navigation-wrapper">
       <nav class="main-navigation">
-        <a class="main-header-logo "href="index.html">
-          <img src="img/nerds-logo-black.svg" width="160" height="65" alt="Логотип студии Нёрдс">
-        </a>
+       <div>
+          <a class="main-header-logo "href="index.html">
+           <img src="img/nerds-logo-black.svg" width="160" height="65" alt="Логотип студии Нёрдс">
+          </a>
+       </div>
+       <div>
         <ul class="site-navigation">
           <li>
             <a href="#">Студия</a>
@@ -34,44 +37,48 @@
             <a href="#">Контакты</a>
           </li>
         </ul>
+      </div>
       </nav>
-        <a class="basket" href="#">Корзина
-          <img src="img/basket-icon.svg" width="15" height="11" alt="Иконка корзины покупок">
-        </a>
+    <div class="basket">
+      <a href="#">Корзина
+      <img src="img/basket-icon.svg" width="15" height="11" alt="Иконка корзины покупок">
+      </a>
     </div>
+  </div>
+        <article>
+          <h1>Дизайн студия Нёрдс</h1>
+          <h2>Преимущества</h2>
+          <div class="slider">
+            <section class="slide">
+              <img src="img/slide1.png" width="760" height="431" alt="Первый слайд">
+              <h3 class="slogan-slide">Долго,дорого,скурпулезно.</h3>
+              <p class="excerpt-slide">Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
+              <a class="more-slides" href="#">Узнать больше</a>
+            </section>
+            <section class="slide">
+              <img src="img/slide2.png" width="760" height="431" alt="Второй слайд">
+              <h3 class="slogan-slide">Любим математику как никто другой</h3>
+              <p class="excerpt-slide">Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
+              <a class="more-slides" href="#">Узнать больше</a>
+            </section>
+            <section class="slide">
+              <img src="img/slide3.png" width="760" height="431" alt="Третий слайд">
+              <h3 class="slogan-slide">Только ночь, только хардкор</h3>
+              <p class="excerpt-slide">Работать днем, как все? Мы против этого.Ближе к полуночи работа только начинается.</p>
+              <a class="more-slides" href="#">Узнать больше</a>
+            </section>
+              <div class="slide-controls">
+                <button type="button">1</button>
+                <button type="button">2</button>
+                <button type="button">3</button>
+              </div>
+          </div>
+        </article>
   </header>
 
   <main class="container">
-    <h1>Дизайн студия Нёрдс</h1>
-    <h2>Преимущества</h2>
-    <div class="slider">
-      <section class="slide">
-        <img src="img/slide1.png" width="760" height="431" alt="Первый слайд">
-        <h3 class="slogan-slide">Долго,дорого,скурпулезно.</h3>
-        <p class="excerpt-slide">Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
-        <a class="more-slides" href="#">Узнать больше</a>
-      </section>
-      <section class="slide">
-        <img src="img/slide2.png" width="760" height="431" alt="Второй слайд">
-        <h3 class="slogan-slide">Любим математику как никто другой</h3>
-        <p class="excerpt-slide">Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
-        <a class="more-slides" href="#">Узнать больше</a>
-      </section>
-      <section class="slide">
-        <img src="img/slide3.png" width="760" height="431" alt="Третий слайд">
-        <h3 class="slogan-slide">Только ночь, только хардкор</h3>
-        <p class="excerpt-slide">Работать днем, как все? Мы против этого.Ближе к полуночи работа только начинается.</p>
-        <a class="more-slides" href="#">Узнать больше</a>
-      </section>
-          <div class="slide-controls">
-            <button type="button">1</button>
-            <button type="button">2</button>
-            <button type="button">3</button>
-          </div>
-    </div>
-
     <!-- Product to order -->
-    <div class="product-columns">
+    <div class="product-columns container-products">
       <section class="product-to-order">
         <img src="img/illustration_web-site.jpg" width="300" height="146" alt="Иллюстрация Веб-сайты">
         <h2>Веб-сайты</h2>
@@ -80,54 +87,61 @@
       </section>
       <section class="product-to-order">
         <img src="img/illustration_apps.jpg" width="300" height="146" alt="Иллюстрация Приложения">
-        <h2>Приложения</h2>
+        <h2 class="heading-apps">Приложения</h2>
         <p>Покорите ТОП-10 приложений в AppStore и Google Play</p>
         <a class="order order-apps" href="#">Заказать</a>
       </section>
       <section class="product-to-order">
         <img src="img/illustration_presentation.jpg" width="300" height="146" alt="Иллюстрация Презентации">
-        <h2>Презентации</h2>
+        <h2 class="heading-presentation">Презентации</h2>
         <p>Вы даже не подозреваете,насколько вы изумительны!</p>
         <a class="order order-presentation" href="#">Заказать</a>
       </section>
-      <!-- Text about studio -->
-      <div class="container-about-studio">
-      <section class="text-about-studio">
-        <h2>О студии</h2>
-        <h3 class="caption">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h3>
-        <p class="excerpt">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая
-          рук, как роботы.</p>
-      </section>
-      <h3 class="caption-list">Выполняем заказы на разработку:</h3>
-      <ul class="list">
-        <li class="item">Веб-сайтов любой сложности</li>
-        <li class="item">Мобильных приложений для iOS и Android</li>
-        <li class="item">Слайдшоу и видео для корпоративных презентаций</li>
-      </ul>
-      <section class="principles-company">
-        <h2>Принципы компании</h2>
-        <figure>
-          <a href="index.html">
-          <img src="img/nerds-logo-colour.jpg" width="360" height="208" alt="Лого дизайн студии Нёрдс">
-          </a>
-        </figure>
-        <h3 class="caption-description-list">с 2004 года Любим точность во всем:</h3>
-        <dl class="description-list">
-          <div class="description-list-first">
-            <dt class="term">146 <span class=percent> %</span> </dt>
-            <dd class="description">Уровень самоотдачи</dd>
-          </div>
-          <div class="description-list-second">
-            <dt class="term">100<span class=percent> %</span></dt>
-            <dd class="description">Соблюдение сроков</dd>
-          </div>
-          <div class="description-list-third">
-            <dt class="term">50<span class=percent> %</span></dt>
-            <dd class="description">Минимальная предоплата</dd>
-          </div>
-        </dl>
-      </section>
     </div>
+      <!-- Text about studio -->
+    <div class="container-about-studio">
+          <section class="text-about-studio">
+            <h2>О студии</h2>
+        <div class="about-studio">
+            <h3 class="caption">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h3>
+            <p class="excerpt">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая
+             рук, как роботы.</p>
+          </section>
+            <h3 class="caption-list">Выполняем заказы на разработку:</h3>
+            <ul class="list">
+              <li class="item">Веб-сайтов любой сложности</li>
+              <li class="item">Мобильных приложений для iOS и Android</li>
+              <li class="item">Слайдшоу и видео для корпоративных презентаций</li>
+            </ul>
+        </div>
+          <div class="statistics-company">
+            <section class="principles-company">
+                <h2>Принципы компании</h2>
+                    <figure>
+                      <a href="index.html">
+                        <img src="img/nerds-logo-colour.jpg" width="360" height="208" alt="Лого дизайн студии Нёрдс">
+                      </a>
+                    </figure>
+                <h3 class="caption-description-list">с 2004 года Любим точность во всем:</h3>
+                    <dl class="description-list">
+                      <div class="description-list-first">
+                        <dt class="term">146 <span class=percent> %</span> </dt>
+                        <dd class="description">Уровень самоотдачи</dd>
+                      </div>
+                      <div class="description-list-second">
+                        <dt class="term">100<span class=percent> %</span></dt>
+                        <dd class="description">Соблюдение сроков</dd>
+                      </div>
+                      <div class="description-list-third">
+                        <dt class="term">50<span class=percent> %</span></dt>
+                        <dd class="description">Минимальная предоплата</dd>
+                      </div>
+                    </dl>
+            </section>
+          </div>
+      </div>
+
+
     <div class="container-logo">
       <section class="logo-examples-sites">
         <h3>Логотипы разработыннах сайтов</h3>
