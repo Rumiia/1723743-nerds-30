@@ -333,7 +333,6 @@ img {
   text-transform: none;
 }
 
-
 .modal-write-us {
   font-size: 16px;
   line-height: 18px;
@@ -343,10 +342,6 @@ img {
 }
 
 /* footer-social */
-
-.footer-map {
-  width: 1440px;
-}
 
 .footer-social {
   text-align: center;
@@ -546,78 +541,6 @@ main h1 {
 .page {
   height: 100%
 }
-/*
-.main-header {
-  background-color: var(--light-gray);
-}
-
-.main-navigation {
-  width: 1160px;
-  margin: 0 auto;
-}
-
-.main-navigation-wrapper {
- display: grid;
- grid-template-columns: 1fr min-content;
- margin: 0 auto;
- width: 1050px;
-}
-
-.container {
-  width: 1160px;
-  margin: 0 auto;
-}
-
-.products {
-  margin-bottom: 155px;
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-gap: 100px;
-}
-
-.text-studio {
-  margin-bottom: 125px;
-  display: grid;
-  grid-template-columns: 650px 350px;
-  grid-gap: 150px;
-}
-
-.logo-sites {
-  width: 1160px;
-  margin: 0 auto;
-}
-
-.logo-examples-sites {
-  margin-bottom: 80px;
-  display: grid;
-  grid-template-columns: 200px 210px 185px 170px;
-  grid-gap: 100px;
-  list-style: none;
-}
-
-.footer-container {
-  width: 1160px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 260px 660px;
-  grid-gap: 140px;
-}
-
-.footer-social {
-  list-style: none;
-}
-
-.sliders {
-  width: 1160px;
-  margin: 0 auto;
-}
-
-.active-slide {
- margin-bottom: 80px;
- display: grid;
- grid-template-columns: min-content 1fr ;
-}
-*/
 
 .main-header {
   background-color: var(--light-gray);
@@ -663,10 +586,4 @@ main h1 {
 .container .social-networks {
   display: grid;
   grid-template-columns: 300px 1fr;
-}
-
-
-.footer-contacts {
-  background-color: var(--white);
-  background-image: url("img/map.jpg");
 }
