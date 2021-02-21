@@ -79,9 +79,9 @@ img {
   height: auto;
 }
 
-/* Main navigation */
+/* Header */
 
-.main-navigation,
+.site-navigation,
 .basket a {
   display: grid;
   font-size: 16px;
@@ -91,32 +91,26 @@ img {
   color: var(--basic-black)
 }
 
-.main-header-logo {
-  order: 0;
-  justify-self: left;
-}
-
-.site-navigation,
+.list-navigation,
 .basket a {
   margin: 0;
   padding: 0;
   list-style: none;
-  background-color: var(--light-gray);
 }
 
-.site-navigation a,
+.list-navigation a,
 .basket a,
-.site-navigation a:active,
+.list-navigation a:active,
 .basket:active {
   color: var(--basic-black);
 }
 
-.site-navigation a:hover,
+.list-navigation a:hover,
 .basket a:hover {
   color: var(--light-red);
 }
 
-.site-navigation a:focus,
+.list-navigation a:focus,
 .basket a:focus {
   color: var(--basic-black);
 }
@@ -134,12 +128,12 @@ img {
   text-align: center;
 }
 
-.slide {
-  display: none;
-}
-
 .active-slide {
   visibility: visible;
+}
+
+.slide-none {
+  display: none;
 }
 
 .slogan-slide {
@@ -313,6 +307,11 @@ img {
   text-transform: none;
 }
 
+.list-examples-sites {
+  display: block;
+  list-style: none;
+}
+
 /* Footer */
 
 .footer-contacts {
@@ -345,9 +344,14 @@ img {
 
 /* footer-social */
 
+.footer-map {
+  width: 1440px;
+}
+
 .footer-social {
   text-align: center;
   list-style: none;
+  display: block;
 }
 
 .social-button {
@@ -542,6 +546,7 @@ main h1 {
 .page {
   height: 100%
 }
+/*
 .main-header {
   background-color: var(--light-gray);
 }
@@ -611,4 +616,57 @@ main h1 {
  margin-bottom: 80px;
  display: grid;
  grid-template-columns: min-content 1fr ;
+}
+*/
+
+.main-header {
+  background-color: var(--light-gray);
+  margin-bottom: 80px;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.main-header .top-header {
+  display: grid;
+  grid-template-columns: 300px 1fr 300px;
+}
+
+.main-header .active-slide {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+}
+
+.products {
+  margin-bottom: 155px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-gap: 100px;
+}
+
+.text-studio {
+  margin-bottom: 125px;
+  display: grid;
+  grid-template-columns: 650px 350px;
+  grid-gap: 150px;
+}
+
+.container .list-examples-sites {
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 200px 210px 185px 170px;
+  grid-gap: 100px;
+}
+
+.container .social-networks {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+
+.footer-contacts {
+  background-color: var(--white);
+  background-image: url("img/map.jpg");
 }
