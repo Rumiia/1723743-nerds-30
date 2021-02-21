@@ -382,7 +382,7 @@ img {
 
 /* страница каталога */
 
-main h1 {
+header h1 {
   font-size: 55px;
   line-height: 55px;
   font-weight: 500;
@@ -585,5 +585,34 @@ main h1 {
 
 .container .social-networks {
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 260px 1fr;
 }
+
+/* Grid catalog */
+
+.container h1 {
+  margin-top: 80px;
+  margin-bottom: 110px;
+  display: grid;
+  order: 1;
+  width: 730px;
+  text-align: center;
+}
+
+.page-catalog {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+}
+
+.sort {
+  grid-column: 1 / -1;
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+.list-template {
+  margin-left: 190px;
+}
+
+
