@@ -579,8 +579,24 @@ header h1 {
 .container .list-examples-sites {
   margin-bottom: 80px;
   display: grid;
-  grid-template-columns: 200px 210px 185px 170px;
-  grid-gap: 100px;
+  grid-template-columns: 300px 300px 300px 300px;
+}
+
+.footer-location {
+  display: grid;;
+  grid-template-columns: 320px 1fr;
+}
+
+.footer-map {
+  width: 1440px;
+}
+
+.footer-contacts {
+  z-index: 1;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  width: 320px;
+  height: 310px;
 }
 
 .container .social-networks {
@@ -601,7 +617,7 @@ header h1 {
 
 .page-catalog {
   display: grid;
-  grid-template-columns: 360px 1fr;
+  grid-template-columns: 260px 1fr;
 }
 
 .sort {
@@ -613,6 +629,17 @@ header h1 {
 
 .list-template {
   margin-left: 190px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
+
+
+
+
+
+
+
+
+
 
 
