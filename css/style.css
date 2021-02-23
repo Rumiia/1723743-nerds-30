@@ -123,11 +123,6 @@ img {
   background-color: var(--light-gray);
 }
 
-.slide-controls {
-  width: 1160px;
-  text-align: center;
-}
-
 .active-slide {
   visibility: visible;
 }
@@ -579,7 +574,7 @@ header h1 {
 .container .list-examples-sites {
   margin-bottom: 80px;
   display: grid;
-  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .footer-location {
