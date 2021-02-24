@@ -303,8 +303,13 @@ img {
 }
 
 .list-examples-sites {
-  display: block;
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-sites {
+  display: block;
 }
 
 /* Footer */
@@ -460,6 +465,9 @@ header h1 {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.list-template li {
   background-color: var(--light-gray);
 }
 
@@ -567,7 +575,7 @@ header h1 {
 .text-studio {
   margin-bottom: 125px;
   display: grid;
-  grid-template-columns: 650px 350px;
+  grid-template-columns: 650px 360px;
   grid-gap: 150px;
 }
 
@@ -575,26 +583,46 @@ header h1 {
   margin-bottom: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-location {
-  display: grid;;
-  grid-template-columns: 320px 1fr;
+  display: grid;
+  grid-template-rows: 1fr;
 }
 
 .footer-map {
+ min-width: 100%;
+ grid-row: 1;
+ grid-column: 1/-1;
+}
+
+.footer-map a {
   width: 1440px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.footer {
+  grid-row: 1;
+  grid-column: 1/-1;
 }
 
 .footer-contacts {
-  z-index: 1;
   margin-top: 55px;
   margin-bottom: 55px;
   width: 320px;
-  height: 310px;
+  min-height: 310px;
 }
 
-.container .social-networks {
+.img_map {
+  max-width: 100%;
+  height: auto;
+}
+
+.social-networks {
   display: grid;
   grid-template-columns: 260px 1fr;
 }
@@ -626,7 +654,55 @@ header h1 {
   margin-left: 190px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
 }
+
+
+/* Flex */
+
+.top-header {
+  margin-top: 50px;
+  width: 1160px;
+  height: 65px;
+}
+
+.list-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.basket a {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.description-list {
+  display: flex;
+  width: 100px;
+  text-align: left;
+}
+
+/* Flex catalog */
+
+.sort {
+  display: flex;
+  width: 760px;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.sort h2 {
+  order: 2;
+}
+
+.pagination-list {
+  display: flex;
+}
+
+
+
 
 
 
